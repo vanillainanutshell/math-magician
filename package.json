@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "math-magician",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,7 +39,6 @@
     "@babel/core": "^7.17.5",
     "@babel/eslint-parser": "^7.17.0",
     "@babel/plugin-syntax-jsx": "^7.16.7",
-    "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "babel": "^6.23.0",
     "eslint": "^7.32.0",
