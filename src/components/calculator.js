@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import Buttons from './Button';
+import Buttons from './Button.js';
 
 /* eslint-disable class-methods-use-this */
 export default class Calculator extends React.Component {
