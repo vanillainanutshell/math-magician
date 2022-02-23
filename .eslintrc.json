@@ -21,7 +21,8 @@
     "no-shadow": "off",
     "react/destructuring-assignment": ["off"],
     "react/prefer-stateless-function": "off",
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "import/extensions": "off"
   },
   "ignorePatterns": [
     "dist/",
