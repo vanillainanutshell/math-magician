@@ -56,7 +56,7 @@ export default class Calculator extends React.Component {
             <td><Buttons number="7" clickHandler={this.clickHandler} /></td>
             <td><Buttons number="8" clickHandler={this.clickHandler} /></td>
             <td><Buttons number="9" clickHandler={this.clickHandler} /></td>
-            <td className="orange"><Buttons number="*" clickHandler={this.clickHandler} /></td>
+            <td className="orange"><Buttons number="x" clickHandler={this.clickHandler} /></td>
           </tr>
           <tr>
             <td><Buttons number="4" clickHandler={this.clickHandler} /></td>
