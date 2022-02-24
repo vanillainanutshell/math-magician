@@ -12,6 +12,7 @@
   background-color: #a3a3a3;
   font-size: 1.4em;
   text-align: end;
+  padding-right: 10px;
 }
 
 table {
@@ -27,11 +28,11 @@ td {
   background-color: #e4e4e4;
 }
 
-.orange {
+.orange>button {
   background-color: #ff7f59;
 }
 
-.orange:hover {
+.orange>button:hover {
   background-color: #e06336;
 }
 
