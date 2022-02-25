@@ -23,7 +23,8 @@
     "react/prefer-stateless-function": "off",
     "react/prop-types": "off",
     "import/extensions": "off",
-    "react/no-unused-state": "off"
+    "react/no-unused-state": "off",
+    "react/jsx-key": "off"
   },
   "ignorePatterns": [
     "dist/",
