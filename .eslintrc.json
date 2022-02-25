@@ -22,7 +22,8 @@
     "react/destructuring-assignment": ["off"],
     "react/prefer-stateless-function": "off",
     "react/prop-types": "off",
-    "import/extensions": "off"
+    "import/extensions": "off",
+    "react/no-unused-state": "off"
   },
   "ignorePatterns": [
     "dist/",

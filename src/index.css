@@ -12,6 +12,7 @@
   background-color: #a3a3a3;
   font-size: 1.4em;
   text-align: end;
+  padding-right: 10px;
 }
 
 table {
@@ -25,14 +26,6 @@ td {
   margin: 0;
   border: 1px solid #cacaca;
   background-color: #e4e4e4;
-}
-
-.orange {
-  background-color: #ff7f59;
-}
-
-.orange:hover {
-  background-color: #e06336;
 }
 
 .transp {
@@ -52,4 +45,12 @@ button:hover {
 button:active {
   background-color: black;
   color: #fff;
+}
+
+.orange > button {
+  background-color: #ff7f59;
+}
+
+.orange > button:hover {
+  background-color: #e06336;
 }
