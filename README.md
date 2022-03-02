@@ -25,27 +25,6 @@ Setup
 To install the dependencies run:
 $ npm Install
 
-## Author
-
-👤 **Mauro Vasconcelos**
-
-- GitHub: [@vanillainanutshell](https://github.com/vanillainanutshell)
-- LinkedIn: [Mauro Vasconcelos](https://www.linkedin.com/in/mauro-vasconcelos-a3671a223/)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
