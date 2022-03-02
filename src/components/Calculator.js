@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Buttons from './Button';
 import calculate from './logics/calculate';
+import './Calculator.css';
 
 /* eslint-disable class-methods-use-this */
 export default function Calculator() {
@@ -30,41 +31,50 @@ export default function Calculator() {
   };
 
   return (
-    <table>
-      <tbody>
-        <tr>
-          <td colSpan="4" className="display">{obj.next === null ? obj.total : obj.next}</td>
-        </tr>
-        <tr>
-          <td><Buttons number="AC" clickHandler={clickHandler} /></td>
-          <td><Buttons number="+/-" clickHandler={clickHandler} /></td>
-          <td><Buttons number="%" clickHandler={clickHandler} /></td>
-          <td className="orange"><Buttons number="÷" clickHandler={clickHandler} /></td>
-        </tr>
-        <tr>
-          <td><Buttons number="7" clickHandler={clickHandler} /></td>
-          <td><Buttons number="8" clickHandler={clickHandler} /></td>
-          <td><Buttons number="9" clickHandler={clickHandler} /></td>
-          <td className="orange"><Buttons number="x" clickHandler={clickHandler} /></td>
-        </tr>
-        <tr>
-          <td><Buttons number="4" clickHandler={clickHandler} /></td>
-          <td><Buttons number="5" clickHandler={clickHandler} /></td>
-          <td><Buttons number="6" clickHandler={clickHandler} /></td>
-          <td className="orange"><Buttons number="-" clickHandler={clickHandler} /></td>
-        </tr>
-        <tr>
-          <td><Buttons number="1" clickHandler={clickHandler} /></td>
-          <td><Buttons number="2" clickHandler={clickHandler} /></td>
-          <td><Buttons number="3" clickHandler={clickHandler} /></td>
-          <td className="orange"><Buttons number="+" clickHandler={clickHandler} /></td>
-        </tr>
-        <tr>
-          <td colSpan="2"><Buttons number="0" clickHandler={clickHandler} /></td>
-          <td><Buttons number="." clickHandler={clickHandler} /></td>
-          <td className="orange"><Buttons number="=" clickHandler={clickHandler} /></td>
-        </tr>
-      </tbody>
-    </table>
+    <div className="calculator_cnt">
+      <div>
+        <h1>Let's do some Math!</h1>
+      </div>
+      <div>
+        <table>
+          <tbody>
+            <tr>
+              <td colSpan="4" className="display">
+                {obj.next === null ? obj.total : obj.next}
+              </td>
+            </tr>
+            <tr>
+              <td><Buttons number="AC" clickHandler={clickHandler} /></td>
+              <td><Buttons number="+/-" clickHandler={clickHandler} /></td>
+              <td><Buttons number="%" clickHandler={clickHandler} /></td>
+              <td className="orange"><Buttons number="÷" clickHandler={clickHandler} /></td>
+            </tr>
+            <tr>
+              <td><Buttons number="7" clickHandler={clickHandler} /></td>
+              <td><Buttons number="8" clickHandler={clickHandler} /></td>
+              <td><Buttons number="9" clickHandler={clickHandler} /></td>
+              <td className="orange"><Buttons number="x" clickHandler={clickHandler} /></td>
+            </tr>
+            <tr>
+              <td><Buttons number="4" clickHandler={clickHandler} /></td>
+              <td><Buttons number="5" clickHandler={clickHandler} /></td>
+              <td><Buttons number="6" clickHandler={clickHandler} /></td>
+              <td className="orange"><Buttons number="-" clickHandler={clickHandler} /></td>
+            </tr>
+            <tr>
+              <td><Buttons number="1" clickHandler={clickHandler} /></td>
+              <td><Buttons number="2" clickHandler={clickHandler} /></td>
+              <td><Buttons number="3" clickHandler={clickHandler} /></td>
+              <td className="orange"><Buttons number="+" clickHandler={clickHandler} /></td>
+            </tr>
+            <tr>
+              <td colSpan="2"><Buttons number="0" clickHandler={clickHandler} /></td>
+              <td><Buttons number="." clickHandler={clickHandler} /></td>
+              <td className="orange"><Buttons number="=" clickHandler={clickHandler} /></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   );
 }

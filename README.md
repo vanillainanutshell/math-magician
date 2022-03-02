@@ -10,6 +10,8 @@
 - JavaScript
 - React
 
+![image](https://user-images.githubusercontent.com/88060989/156406227-8297eb0e-4867-4b3f-a311-34246f61ff6a.png)
+
 
 ### Setup
 
@@ -22,32 +24,6 @@ Setup
 
 To install the dependencies run:
 $ npm Install
-
-## Author
-
-👤 **Mauro Vasconcelos**
-
-- GitHub: [@vanillainanutshell](https://github.com/vanillainanutshell)
-- LinkedIn: [Mauro Vasconcelos](https://www.linkedin.com/in/mauro-vasconcelos-a3671a223/)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
 
 # Getting Started with Create React App
 
@@ -79,3 +55,26 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Author
+
+👤 **Mauro Vasconcelos**
+
+- GitHub: [@vanillainanutshell](https://github.com/vanillainanutshell)
+- LinkedIn: [Mauro Vasconcelos](https://www.linkedin.com/in/mauro-vasconcelos-a3671a223/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
