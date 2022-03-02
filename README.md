@@ -15,7 +15,15 @@
 
 ### Setup
 
+To get a local copy up and running follow these simple example steps:
+Prerequisites
+Node
+npm
+Setup
 - Clone this repo URL "https://github.com/vanillainanutshell/math-magician"
+
+To install the dependencies run:
+$ npm Install
 
 
 ## 📝 License
