@@ -1,0 +1,22 @@
+.home_cnt {
+    width: 85%;
+    margin: 20vh auto;
+  }
+  
+  .home_cnt > h1 {
+    font-size: 40px;
+  }
+  
+  .home_cnt > p {
+    font-size: 1.3rem;
+  }
+  
+  .quote_cnt {
+    width: 85%;
+    margin: 20vh auto;
+  }
+  
+  .quote_cnt > h2 {
+    width: fit-content;
+    margin: auto;
+  }

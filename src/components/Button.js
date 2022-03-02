@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function CalcButtons(props) {
+export default function Buttons(props) {
   const { number, clickHandler } = props;
   return (
     <button
